@@ -12,4 +12,5 @@ class Post
   def author_name
     @author
   end
+  
 end
