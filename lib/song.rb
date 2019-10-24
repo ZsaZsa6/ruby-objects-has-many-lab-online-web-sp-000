@@ -7,9 +7,11 @@ class Song
    @genre = genre
    save
   end
-  
-  def name
 
+  def name
+    @name
+  end
+  
   def save
     @@all << self
   end
