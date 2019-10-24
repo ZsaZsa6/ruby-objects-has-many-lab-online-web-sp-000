@@ -9,7 +9,7 @@ class Song
   end
 
   def name
-    @name
+    @title
   end
 
   def save
