@@ -1,7 +1,7 @@
 class Author
   attr_accessor :name
 
-  def initialize(name = "default")
+  def initialize(name)
     @name = name
     @posts = []
   end
@@ -14,7 +14,7 @@ class Author
   def posts
     @posts
   end
-  
+
   def add_post_by_title(title)
 
   end
